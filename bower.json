@@ -1,0 +1,28 @@
+{
+  "name": "ionic-notification-popup",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mentatxx/ionic-notification-popup",
+  "authors": [
+    "Alexey Petushkov <mentatxx@gmail.com>"
+  ],
+  "main": ["./dist/ionic-notification-popup.min.js", "./dist/ionic-notification-popup.min.css"],
+  "description": "View-independent notifications popup. Useful to display Push notifications",
+  "keywords": [
+    "ionic",
+    "ionic-notification-popup",
+    "notification",
+    "toast",
+    "popup"
+  ],
+  "license": "Apache 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">=1.4.0"
+  }
+}
