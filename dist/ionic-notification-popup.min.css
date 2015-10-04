@@ -1,2 +1,29 @@
+.notification-popup {
+  z-index: 10;
+  background: #323232;
+  position: fixed;
+  margin: 0;
+  padding: 14px 24px;
+  width: 100%;
+  color: #fff;
+  border-bottom: 6px solid green; }
+  .notification-popup .notification-image {
+    display: block;
+    float: left;
+    margin-right: 24px;
+    font-size: 40px; }
+  .notification-popup .notification-clickable {
+    cursor: pointer; }
+  .notification-popup .notification-close-button {
+    float: right;
+    font-size: 24px;
+    padding-left: 48px;
+    cursor: pointer; }
+    .notification-popup .notification-close-button:hover {
+      color: green; }
+  .notification-popup .h3 {
+    color: #fff; }
+  .notification-popup.notification-invisible {
+    display: none; }
 
 /*# sourceMappingURL=ionic-notification-popup.min.css.map */
